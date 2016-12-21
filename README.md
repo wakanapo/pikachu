@@ -1,5 +1,4 @@
-# pikachu
-brain fxckでピカチュウ語つくってみた
+# brain fxckでピカチュウ語つくってみた
 ピカチュウの歌 (<https://www.youtube.com/watch?v=9JUwoSUZA34>)が可愛すぎてピカチュウ語が喋りたくてたまらなくなったのでbrain fuckのピカチュ語バージョンをつくってみました。
 #定義 
 * `> → ピカ` 
