@@ -38,7 +38,7 @@ rubyのr-fxxkというライブラリを使うとすごく簡単に作れまし�
 ruby pikachu_lang.rb helloworld.pk
 ```
 
-##brain fuck →　 pikach
+##brain fuck →　pikach
 ```
 ruby bfToPika.rb helloworld.bf
 ```
