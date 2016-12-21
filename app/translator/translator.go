@@ -41,7 +41,7 @@ func round(f float64) int {
 }
 
 
-func translate(str string) string{
+func translate(str string) string {
 	ex_num := 0
 	var fin_pk string
 	for i, c := range str {
