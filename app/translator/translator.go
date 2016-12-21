@@ -15,6 +15,7 @@ type Pikachu struct {
 	Blain string
 }
 
+
 func HandleTrans(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	txt := r.FormValue("plain")
