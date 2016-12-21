@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
+        <title>ピカチュウ語translator</title>
+        <link rel="stylesheet" type="text/css" href="/views/style.css">
+    </head>
+    <body>
+        <h1>ピカチュウ語translator</h1>
+        <p>
+            ASCII文字列をピカチュウ語に変換します。
+        </p>
+
+        <table id="converter">
+	        <tr>
+		        <th>Plain</th>
+		        <th><br></th>
+		        <th>Pikachu</th>
+	        </tr>
+	        <tr>
+                <form action="pikachu" method="POST">
+		            <td><textarea name="plain" class="source">{{.Plain}}</textarea></td>
+                    
+		            <td>
+			            <input type="submit" class="button" value="→">
+		            </td>
+		           	<td><textarea name="brain" class="source">{{.Blain}}</textarea></td>
+                </form>
+            </tr>
+        </table>
+    </body>
+</html>

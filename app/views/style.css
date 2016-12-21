@@ -1,0 +1,11 @@
+@charaset "UTF-8";
+
+
+#converter .source {
+	width: 400px;
+	height: 250px;
+}
+#converter .button {
+	width: 100px;
+	height: 100px;
+}
