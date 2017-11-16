@@ -26,18 +26,18 @@
   
   (ポインタが指す値が0でないなら、対応する [ （の直後[1]）にジャンプする。C言語の「}」に相当。)  
   
-#使い方
-##encode
+# 使い方
+## encode
 ピカチュウ語translatot ( <https://pikachu-lang.appspot.com/pikachu> )でできます。
 GAEを使っています。コードは app/ 以下。
 
-##decode
+## decode
 rubyのr-fxxkというライブラリを使うとすごく簡単に作れました。
 ```
 ruby pikachu_lang.rb helloworld.pk
 ```
 
-##brain fuck →　pikach
+## brain fuck →　pikach
 ```
 ruby bfToPika.rb helloworld.bf
 ```
